@@ -1,0 +1,14 @@
+# Requirements for Speech to Text Recorder
+# Install with: pip install -r Requirements.txt
+
+# GUI
+python-docx         # For exporting to Word
+reportlab           # For exporting to PDF
+
+# Browser automation for speech recognition
+selenium            # Controls Chrome for speech recognition
+webdriver-manager   # Automatically manages ChromeDriver
+
+# Utilities
+python-dotenv       # For .env language config
+mtranslate          # For translation (if needed)
